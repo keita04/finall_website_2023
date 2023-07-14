@@ -67,7 +67,7 @@ body {
     font-size: 16pt;
     color: #000000;
     line-height: 1;
-    background-color: #ffffff;
+    background-color: #10eb93;
 }
 
 img {
@@ -123,10 +123,10 @@ img {
         top: 0;
         left: 0;
         right: 0;
-        background-color: #ffffff;
+        background-color: #eeff00;
         height: 50px;
         z-index: 10;
-        box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+        box-shadow: 0 3px 6px rgb(0, 0, 0);
     }
 
     .header-inner {

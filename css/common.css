@@ -78,7 +78,7 @@ img {
         top: 0;
         left: 0;
         right: 0;
-        background-color: #ffffff;
+        background-color: #eeff00;
         height: 50px;
         z-index: 10;
         box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
@@ -121,6 +121,19 @@ img {
 
     .copyright {
         margin-top: 50px;
+    }
+    .toggle-menu-button {
+        display: block;
+        width: 44px;
+        height: 34px;
+        background-image: url(../images/common/icon-menu.png);
+        background-size: 50%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-color: transparent;
+        border: none;
+        border-radius: 0;
+        outline: none;
     }
 }
 

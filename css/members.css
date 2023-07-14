@@ -32,7 +32,7 @@
 
 .member-list li {
     flex-shrink: 0;
-    width: 260px;
+    width: 500px;
     margin-left: 75px;
 }
 
