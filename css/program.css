@@ -9,3 +9,45 @@
     font-weight: bold;
     text-align: center;
 }
+
+.programs h2::after {
+    content: '';
+    display: block;
+    width: 36px;
+    height: 3px;
+    background-color: #000000;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.programs-list {
+    display: flex;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    padding-left: 60px;
+    padding-right: 60px;
+    overflow: scroll;
+}
+
+.programs-list li {
+    flex-shrink: 0;
+    width: 500px;
+    margin-left: 75px;
+}
+
+.programs-list li:first-child {
+    margin-left: 0;
+}
+
+@media (max-width: 800px) {
+    .programs-list {
+    padding-left: 20px;
+    padding-right: 20px;
+    }
+
+    .programs-list li {
+        width: 220px;
+        margin-left: 30px;
+    }
+}
