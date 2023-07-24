@@ -43,6 +43,8 @@ nav.floating {
 .lead {
     max-width: 1200px;
     margin: 60px auto;
+    font-size: 100px;
+    color: #f14e8c;
 }
 
 *,
