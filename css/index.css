@@ -38,13 +38,14 @@ nav.floating {
 .first-view-text p {
     font-size: 18px;
     margin-top: 20px;
+    color: #e4b7f4;
 }
 
-.lead {
-    max-width: 1200px;
-    margin: 60px auto;
-    font-size: 100px;
-    color: #f14e8c;
+.first-view-text h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 96px;
+    line-height: 82px;
+    color: #8aebf8;
 }
 
 *,
