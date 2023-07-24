@@ -23,6 +23,8 @@
 
 .programs-list {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
     padding-top: 40px;
     padding-bottom: 10px;
     padding-left: 60px;
@@ -38,6 +40,10 @@
 
 .programs-list li:first-child {
     margin-left: 0;
+}
+
+.programs-list img{
+    border: solid 50px #777777;
 }
 
 @media (max-width: 800px) {
