@@ -19,7 +19,7 @@
     text-align: center;
 }
 
-/*.programs h1::after {
+.programs h1::after {
     content: '';
     display: block;
     width: 36px;
@@ -28,7 +28,7 @@
     margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
-}*/
+}
 
 .programs-list {
     display: flex;
@@ -38,7 +38,6 @@
     padding-bottom: 10px;
     padding-left: 60px;
     padding-right: 60px;
-    overflow: scroll;
 }
 
 .programs-list li {
@@ -47,22 +46,20 @@
     margin-left: 75px;
 }
 
-.programs-list li:first-child {
-    margin-left: 0;
-}
-
 .programs-list img{
-    border: solid 50px #777777;
+    border: solid 1px #000000;
 }
 
 @media (max-width: 800px) {
     .programs-list {
-        padding-left: 20px;
-        padding-right: 20px;
+        padding-left: 40px;
+        padding-right: 40px;
     }
 
     .programs-list li {
-        width: 220px;
-        margin-left: 30px;
+        width: 600px;
+        margin-left: 50px;
+        margin-right: 50px;
+        text-align: center;
     }
 }
