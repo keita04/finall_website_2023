@@ -12,13 +12,14 @@
     text-shadow: 1px 1px 10px #000000;
 }
 
-.programs h2 {
-    font-size: 22px;
+.programs h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32pt;
     font-weight: bold;
     text-align: center;
 }
 
-.programs h2::after {
+/*.programs h1::after {
     content: '';
     display: block;
     width: 36px;
@@ -27,7 +28,7 @@
     margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
-}
+}*/
 
 .programs-list {
     display: flex;
@@ -48,6 +49,10 @@
 
 .programs-list li:first-child {
     margin-left: 0;
+}
+
+.programs-list img{
+    border: solid 50px #777777;
 }
 
 @media (max-width: 800px) {
