@@ -1,6 +1,6 @@
 .programs {
     height: 310px;
-    background-image: url(../images/program/program_1.jpg);
+    background-image: url(../images/program/program_header.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -43,23 +43,11 @@
 .programs-list li {
     flex-shrink: 0;
     width: 500px;
-    margin-left: 75px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
 }
 
 .programs-list img{
     border: solid 1px #000000;
-}
-
-@media (max-width: 800px) {
-    .programs-list {
-        padding-left: 40px;
-        padding-right: 40px;
-    }
-
-    .programs-list li {
-        width: 600px;
-        margin-left: 50px;
-        margin-right: 50px;
-        text-align: center;
-    }
 }
