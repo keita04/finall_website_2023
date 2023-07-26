@@ -38,11 +38,14 @@ nav.floating {
 .first-view-text p {
     font-size: 18px;
     margin-top: 20px;
+    color: #e4b7f4;
 }
 
-.lead {
-    max-width: 1200px;
-    margin: 60px auto;
+.first-view-text h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 96px;
+    line-height: 82px;
+    color: #8aebf8;
 }
 
 *,
@@ -67,7 +70,7 @@ body {
     font-size: 16pt;
     color: #000000;
     line-height: 1;
-    background-color: #ffffff;
+    background-color: #10eb93;
 }
 
 img {
@@ -105,7 +108,7 @@ img {
 }
 
 .site-menu ul li a {
-    font-family: 'Cherry Bomb One', cursive;
+    font-family:'Cherry Bomb One', cursive;
 }
 
 @media (max-width: 800px) {
@@ -123,10 +126,10 @@ img {
         top: 0;
         left: 0;
         right: 0;
-        background-color: #ffffff;
+        background-color: #eeff00;
         height: 50px;
         z-index: 10;
-        box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+        box-shadow: 0 3px 6px rgb(0, 0, 0);
     }
 
     .header-inner {
